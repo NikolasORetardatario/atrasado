@@ -1,0 +1,30 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro n1
+		inteiro n2
+		inteiro n3
+		inteiro n4
+		inteiro total
+		inteiro media
+
+		escreva("Primeira nota?: ")
+		leia(n1)
+
+		escreva("Segunda nota?: ")
+		leia(n2)
+
+		escreva("Terceira nota?: ")
+		leia(n3)
+
+		escreva("Quarta nota?: ")
+		leia(n4)
+
+		total = n1 + n2 + n3 + n4
+		media = total / 4
+
+		escreva("Sua nota final: ", media = total / 4)
+	}
+}
